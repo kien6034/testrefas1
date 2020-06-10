@@ -8,6 +8,8 @@
 
     </head>
     <body>
-        HEllo
+        {% for archive in archives %}
+            {{archive.name}}
+        {% endfor %}
     </body>
 </html>
